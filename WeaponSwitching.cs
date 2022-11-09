@@ -45,7 +45,8 @@ public class WeaponSwitching : MonoBehaviour
             if (i == selectedWeapon)
                 weapon.gameObject.SetActive(true);
             else
-                weapon.gameObject.SetActive(false);                
+                weapon.gameObject.SetActive(false);
+            i++;
         }
     }
 }
