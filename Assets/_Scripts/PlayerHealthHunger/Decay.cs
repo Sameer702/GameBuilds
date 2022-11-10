@@ -27,7 +27,7 @@ public class Decay : MonoBehaviour
         {
             yield return new WaitForSeconds(decayTime);
             
-            if (decayPercent > 0)
+            if (decayPercent >= 0)
             {
                 decayPercent = decayPercent - decayAmount;
             }
