@@ -30,6 +30,11 @@ public class Decay : MonoBehaviour
             if (decayPercent >= 0)
             {
                 decayPercent = decayPercent - decayAmount;
+
+                if (decayPercent < 0)
+                {
+                    decayPercent = 0;
+                }
             }
             if (decayPercent < 10)
             {

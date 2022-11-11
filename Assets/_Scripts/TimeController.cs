@@ -62,6 +62,11 @@ public class TimeController : MonoBehaviour
         return diff;
     }
 
+    public String getCurrentTime()
+    {
+        return currentTime.ToString("HH:mm");;
+    }
+
     private void RotateSun()
     {
         float sunLightRotation;
