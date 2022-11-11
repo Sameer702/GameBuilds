@@ -35,17 +35,6 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
-        if(Input.GetButtonDown("Fire3") && isGrounded)
-        {
-            speed = speed * 3f;
-            playerController.Move(move * speed * Time.deltaTime);
-        }
-        
-        if(Input.GetButtonUp("Fire3") && isGrounded)
-        {
-            speed = speed / 3;
-        }
-
         velocity.y += gravity * Time.deltaTime;
 
         playerController.Move(velocity * Time.deltaTime);
