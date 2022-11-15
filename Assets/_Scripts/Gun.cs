@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour
 
     public Camera fpscam;
     // public ParticleSystem muzzleFlash;
-    // public Animator animator;
+    public Animator animator;
 
 
     private float nextTimeToFire = 0f;
@@ -30,7 +30,7 @@ public class Gun : MonoBehaviour
     void OnEnable()
     {
         isReloading = false;
-        // animator.SetBool("Reloading", false);
+        animator.SetBool("Reloading", false);
     }
 
     // Update is called once per frame
@@ -58,10 +58,10 @@ public class Gun : MonoBehaviour
 
         Debug.Log("reloading...");
 
-        // animator.SetBool("Reloading", true);
+        animator.SetBool("Reloading", true);
 
         yield return new WaitForSeconds(reloadTime -.25f);
-        // animator.SetBool("Reloading", false);
+        animator.SetBool("Reloading", false);
         yield return new WaitForSeconds(.25f);
 
 
