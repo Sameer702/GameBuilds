@@ -9,8 +9,8 @@ public class WeaponController : MonoBehaviour
     public float AttackCooldown = 1.0f;
     public bool isAttacking = false;
 
-    public float damage = 10f;
-    public float range = 100f;
+    public float damage = 25f;
+    public float range = 50f;
 
     public Camera fpscam;
 
