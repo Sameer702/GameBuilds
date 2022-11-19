@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuButtonController : MonoBehaviour
+public class ButtonsController : MonoBehaviour
 {
     public void Play() 
     {
@@ -13,5 +13,10 @@ public class MenuButtonController : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
