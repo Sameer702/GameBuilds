@@ -31,12 +31,12 @@ public class Decay : MonoBehaviour
             {
                 decayPercent = decayPercent - decayAmount;
 
-                if (decayPercent < 0)
+                if (decayPercent <= 0)
                 {
                     decayPercent = 0;
                 }
             }
-            if (decayPercent < 10)
+            if (decayPercent < 15)
             {
                 player.takeDamage(10);
             }
