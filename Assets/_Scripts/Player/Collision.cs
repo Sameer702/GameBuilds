@@ -6,7 +6,6 @@ public class Collision : MonoBehaviour
 {
     public Player player;    
     private float timer;
-    public float timeBetweenDamage;
 
     // Moment it collides
     void OnTriggerEnter(Collider other)
@@ -18,11 +17,22 @@ public class Collision : MonoBehaviour
     void OnTriggerStay(Collider other)
     {
         timer += Time.deltaTime;
-        if (timer >= timeBetweenDamage)
+        if ((other.gameObject.tag == "enemy"))
         {
-            enemyDealsDamage(other);
-            timer = 0;
+            if (timer >= 2)
+            {
+                player.takeDamage(5);
+                timer = 0;
+            }
         }
+        // if (timer >= timeBetweenDamage)
+        // {
+        //     if (other.gameObject.tag == "enemy")
+        //     {
+        //         player.takeDamage(5);
+        //     }
+        //     timer = 0;
+        // }
     }
 
     void enemyDealsDamage(Collider other)
