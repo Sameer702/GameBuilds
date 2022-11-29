@@ -7,16 +7,11 @@ public class ButtonsController : MonoBehaviour
 {
     public void Play() 
     {
-        SceneManager.LoadScene("DesertL1");
+        SceneManager.LoadScene(1);
     }
 
     public void Quit()
     {
         Application.Quit();
-    }
-
-    public void MainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
     }
 }
