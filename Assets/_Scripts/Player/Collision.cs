@@ -11,6 +11,11 @@ public class Collision : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         enemyDealsDamage(other);
+        if (other.tag == "Dragon")
+        {
+            transform.parent = other.transform;
+            other.GetComponent<Dragon>().takeDamage(40);
+        }
     }
 
     // While they are colliding
