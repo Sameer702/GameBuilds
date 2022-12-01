@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Decay : MonoBehaviour
 {
-    public int decayPercent;
+    public static int decayPercent;
     public int decayAmount;
     public float decayTime;
     public Text decayText;
@@ -15,6 +15,7 @@ public class Decay : MonoBehaviour
     void Start()
     {
         StartCoroutine(decay());
+        
     }
 
     void Update()
@@ -41,5 +42,8 @@ public class Decay : MonoBehaviour
                 player.takeDamage(10);
             }
         }
+    }
+    public void decreaseHunger(int food){
+        decayPercent = decayPercent + food;
     }
 }
