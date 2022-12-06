@@ -61,5 +61,13 @@ public class Target : MonoBehaviour
         {
             other.GetComponent<Dragon>().takeDamage(20);
         }
+        else if (other.tag == "Bear")
+        {
+            other.GetComponent<Bear>().takeDamage(20);
+        }
+        else if (other.tag == "Spider")
+        {
+            other.GetComponent<Spider>().takeDamage(20);
+        }
     }
 }

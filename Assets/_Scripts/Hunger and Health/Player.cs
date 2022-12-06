@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
             winScreen.Setup();
         }
 
-        if(overlay.color.a > 0)
+        if (overlay.color.a > 0)
         {
             durationTimer += Time.deltaTime;
             if (durationTimer > duration)
@@ -42,14 +42,14 @@ public class Player : MonoBehaviour
                 overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, tempAlpha);
             }
         }
-    }
+}
 
-    public void takeDamage(int damage)
-    {
-        currentHealth = currentHealth - damage;
-        durationTimer = 0;
-        overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 1);
-        healthBar.setHealth(currentHealth);
-        
-    }
+public void takeDamage(int damage)
+{
+    currentHealth = currentHealth - damage;
+    durationTimer = 0;
+    overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 1);
+    healthBar.setHealth(currentHealth);
+
+}
 }
