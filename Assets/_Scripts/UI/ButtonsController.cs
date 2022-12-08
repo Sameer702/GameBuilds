@@ -7,7 +7,7 @@ public class ButtonsController : MonoBehaviour
 {
     public void Play() 
     {
-        SceneManager.LoadScene("DesertL1");
+        SceneManager.LoadScene(1);
     }
 
     public void Quit()
@@ -15,8 +15,8 @@ public class ButtonsController : MonoBehaviour
         Application.Quit();
     }
 
-    public void MainMenu()
+    public void NextLevel()
     {
-        SceneManager.LoadScene("MainMenu");
+        Debug.Log("Pressed");
     }
 }

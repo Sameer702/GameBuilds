@@ -8,5 +8,7 @@ public class WinningScreen : MonoBehaviour
     public void Setup()
     {
         gameObject.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
