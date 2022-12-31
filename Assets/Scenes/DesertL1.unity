@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1858,6 +1858,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709377288}
   m_CullTransparentMesh: 1
+--- !u!114 &873150614 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3715040766290670713, guid: eb58e8f2831a51f45a44a261e6710cdd, type: 3}
+  m_PrefabInstance: {fileID: 1331967844}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &881942962
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,22 +2493,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6252536328923500438, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
   m_PrefabInstance: {fileID: 1012418282}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1052615682 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1915248933459144677, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
-  m_PrefabInstance: {fileID: 536200114}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1077151496 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8400425680380985141, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
-  m_PrefabInstance: {fileID: 536200114}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1095443874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,6 +2524,11 @@ Transform:
   m_Father: {fileID: 1553963276}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1153186610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7306704348313205861, guid: eb58e8f2831a51f45a44a261e6710cdd, type: 3}
+  m_PrefabInstance: {fileID: 1331967844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1175671701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3291,6 +3291,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 21f63f1db8e9c43a298387b3ac0d1773, type: 2}
+    - target: {fileID: 3640239434738006619, guid: eb58e8f2831a51f45a44a261e6710cdd, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1356038345}
+    - target: {fileID: 7286566909493577199, guid: eb58e8f2831a51f45a44a261e6710cdd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286566909493577199, guid: eb58e8f2831a51f45a44a261e6710cdd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: eb58e8f2831a51f45a44a261e6710cdd, type: 3}
@@ -4977,8 +4989,8 @@ MonoBehaviour:
   HP: 300
   health: 300
   maxHealth: 300
-  healthBarUI: {fileID: 1052615682}
-  slider: {fileID: 1077151496}
+  healthBarUI: {fileID: 1153186610}
+  slider: {fileID: 873150614}
   animator: {fileID: 2094384251}
 --- !u!114 &2094384255
 MonoBehaviour:
@@ -4995,8 +5007,8 @@ MonoBehaviour:
   health: 300
   maxHealth: 300
   animator: {fileID: 2094384251}
-  healthBarUI: {fileID: 1052615682}
-  slider: {fileID: 1077151496}
+  healthBarUI: {fileID: 1153186610}
+  slider: {fileID: 873150614}
 --- !u!136 &2094384259
 CapsuleCollider:
   m_ObjectHideFlags: 0

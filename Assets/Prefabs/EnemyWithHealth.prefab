@@ -495,10 +495,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.67053986
+  m_Radius: 0.85092163
   m_Height: 4
   m_Direction: 1
-  m_Center: {x: 0.029899597, y: 2, z: -0.005844116}
+  m_Center: {x: 0.07751465, y: 2, z: -0.005844116}
 --- !u!54 &6252536328923500443
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -540,10 +540,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f9a04fbcdb44134a87bc24fef1c1f46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 50
   health: 100
   maxHealth: 100
   healthBarUI: {fileID: 1915248933459144677}
   slider: {fileID: 8400425680380985141}
+  animator: {fileID: 0}
 --- !u!1 &6259315396732497893
 GameObject:
   m_ObjectHideFlags: 0
