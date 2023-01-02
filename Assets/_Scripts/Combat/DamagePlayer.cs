@@ -15,7 +15,6 @@ public class DamagePlayer : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             enemyDealsDamage();
-            Debug.Log("Entered");
         }
         if (other.tag == "Dragon")
         {
@@ -27,27 +26,16 @@ public class DamagePlayer : MonoBehaviour
     // While they are colliding
     void OnTriggerStay(Collider other)
     {
-        Debug.Log(other.tag);
-        Debug.Log(other.gameObject.tag);
         timer += Time.deltaTime;
-        Debug.Log(timer);
+        
         if ((other.gameObject.tag == "Player"))
         {
-            Debug.Log("Still here 2");
             if (timer >= second)
             {
                 enemyDealsDamage();
                 timer = 0;
             }
         }
-        // if (timer >= timeBetweenDamage)
-        // {
-        //     if (other.gameObject.tag == "enemy")
-        //     {
-        //         player.takeDamage(5);
-        //     }
-        //     timer = 0;
-        // }
     }
 
     void enemyDealsDamage()
