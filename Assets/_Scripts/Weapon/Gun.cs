@@ -24,9 +24,9 @@ public class Gun : MonoBehaviour
 
 
     void Start()
-    {
-        ammoDisplay.text = currentAmmo.ToString();
+    {   
         currentAmmo = maxAmmo;
+        Debug.Log(currentAmmo);
     }
 
 
@@ -34,11 +34,15 @@ public class Gun : MonoBehaviour
     {
         isReloading = false;
         animator.SetBool("Reloading", false);
+        ammoDisplay.gameObject.SetActive(true);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        ammoDisplay.text = currentAmmo.ToString();
+
         if (isReloading)
             return;
 
@@ -75,7 +79,6 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         // muzzleFlash.Play();
-        ammoDisplay.text = currentAmmo.ToString();
         currentAmmo--;
 
         RaycastHit hit;
@@ -89,5 +92,7 @@ public class Gun : MonoBehaviour
                 target.takeDamage(damage);
             }
         }
+        ammoDisplay.text = currentAmmo.ToString();
+
     }
 }

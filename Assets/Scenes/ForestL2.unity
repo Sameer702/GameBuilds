@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -945,11 +945,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.55
+      value: 0.82
       objectReference: {fileID: 0}
     - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 381.07
+      value: 414.36
       objectReference: {fileID: 0}
     - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5562,6 +5562,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 601cfbd428e014a44a27cf56d943f4eb, type: 2}
+    - target: {fileID: 1349369316201658956, guid: b8e432e35e34a4a4b856823ba9744620, type: 3}
+      propertyPath: ammoDisplay
+      value: 
+      objectReference: {fileID: 1885627248}
     - target: {fileID: 1349369316201658958, guid: b8e432e35e34a4a4b856823ba9744620, type: 3}
       propertyPath: m_Name
       value: WeaponHolder

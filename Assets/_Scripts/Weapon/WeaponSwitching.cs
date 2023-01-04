@@ -1,9 +1,10 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class WeaponSwitching : MonoBehaviour
 {
 
     public int selectedWeapon = 0;
+    public Text ammoDisplay;
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +44,10 @@ public class WeaponSwitching : MonoBehaviour
         foreach (Transform weapon in transform)
         {
             if (i == selectedWeapon)
+            {
+                ammoDisplay.gameObject.SetActive(false);
                 weapon.gameObject.SetActive(true);
+            }
             else
                 weapon.gameObject.SetActive(false);
             i++;
