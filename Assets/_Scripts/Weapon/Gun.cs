@@ -26,7 +26,6 @@ public class Gun : MonoBehaviour
     void Start()
     {   
         currentAmmo = maxAmmo;
-        Debug.Log(currentAmmo);
     }
 
 

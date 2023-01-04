@@ -333,6 +333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -431,6 +435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -781,6 +789,17 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: b10461d9ab8d1402bae874eae64e82cc, type: 3}
+--- !u!114 &194852509 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1231147871427777688, guid: 071e5becc343e4471a4fd8672dc2c5fd, type: 3}
+  m_PrefabInstance: {fileID: 222269849}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a38eb83893e6b44319e9424f632cf655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &215168065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6252536328923500438, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -1257,6 +1276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -1376,6 +1399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -1454,6 +1481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -1727,6 +1758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -1962,6 +1997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -3326,6 +3365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -4040,6 +4083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -4112,6 +4159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -4179,6 +4230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -4906,6 +4961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -5799,6 +5858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -6527,6 +6590,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 460785367}
   slider: {fileID: 255645474}
   animator: {fileID: 1901667436}
+  hunger: {fileID: 0}
 --- !u!136 &1901667439
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7255,6 +7319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -7333,6 +7401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -7405,6 +7477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -7503,6 +7579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyWithHealth (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 194852509}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}

@@ -1047,7 +1047,7 @@ Transform:
   - {fileID: 441305408613683498}
   - {fileID: 5603824873322544341}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 138.309, z: 0}
 --- !u!95 &441305408606655890
 Animator:
@@ -1123,6 +1123,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 7167887869273812131}
   slider: {fileID: 3860056616329979071}
   animator: {fileID: 441305408606655890}
+  hunger: {fileID: 0}
 --- !u!114 &441305408889873373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4508,7 +4509,7 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4588,7 +4589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.86}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3362595289076527702

@@ -21,11 +21,32 @@ public class Decay : MonoBehaviour
     {
         decayText.text = decayPercent + "%";
     }
+
+    public void increaseHunger(int val)
+    {
+        if (decayPercent >= 100)
+        {
+            return;
+        }
+        decayPercent += val;
+        
+        if (decayPercent >= 100)
+        {
+            decayPercent = 100;
+            player.increaseHealth(2);
+        }
+    }
+
     IEnumerator decay()
     {
         while (decaying)
         {
             yield return new WaitForSeconds(decayTime);
+
+            if (decayPercent >= 100)
+            {
+                player.increaseHealth(3);
+            }
             
             if (decayPercent >= 0)
             {

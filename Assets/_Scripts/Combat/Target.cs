@@ -10,6 +10,7 @@ public class Target : MonoBehaviour
     public GameObject healthBarUI;
     public Slider slider;
     public Animator animator;
+    public Decay hunger;
 
     void Start()
     {
@@ -46,6 +47,10 @@ public class Target : MonoBehaviour
 
     void Die()
     {
+        if (this.tag == "enemy")
+        {
+            hunger.increaseHunger(5);
+        }
         Destroy(gameObject);
     }
 

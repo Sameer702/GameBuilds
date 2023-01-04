@@ -895,6 +895,17 @@ Transform:
   m_Father: {fileID: 1210023121}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &183511034 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1231147871427777688, guid: 071e5becc343e4471a4fd8672dc2c5fd, type: 3}
+  m_PrefabInstance: {fileID: 1272866725}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a38eb83893e6b44319e9424f632cf655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &231740519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1069,6 +1080,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 231740522}
   slider: {fileID: 231740521}
   animator: {fileID: 231740523}
+  hunger: {fileID: 0}
 --- !u!195 &231740527
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1402,6 +1414,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 244622245}
   slider: {fileID: 244622244}
   animator: {fileID: 244622246}
+  hunger: {fileID: 0}
 --- !u!195 &244622250
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1733,6 +1746,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 313740193}
   slider: {fileID: 313740192}
   animator: {fileID: 313740194}
+  hunger: {fileID: 0}
 --- !u!195 &313740198
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1979,6 +1993,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 183511034}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -2061,6 +2079,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 183511034}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -2227,6 +2249,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 472293707}
   slider: {fileID: 472293706}
   animator: {fileID: 472293708}
+  hunger: {fileID: 0}
 --- !u!195 &472293712
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2646,6 +2669,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1269021433}
   slider: {fileID: 1293856537}
   animator: {fileID: 501310525}
+  hunger: {fileID: 0}
 --- !u!114 &501310530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2864,6 +2888,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 525145734}
   slider: {fileID: 525145733}
   animator: {fileID: 525145735}
+  hunger: {fileID: 0}
 --- !u!195 &525145739
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3170,6 +3195,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 632928807}
   slider: {fileID: 632928806}
   animator: {fileID: 632928808}
+  hunger: {fileID: 0}
 --- !u!195 &632928812
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3706,6 +3732,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 704468566}
   slider: {fileID: 704468565}
   animator: {fileID: 704468567}
+  hunger: {fileID: 0}
 --- !u!195 &704468571
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4025,6 +4052,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1215815457}
   slider: {fileID: 1634864795}
   animator: {fileID: 778405556}
+  hunger: {fileID: 0}
 --- !u!136 &778405554
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4330,6 +4358,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 183511034}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -4854,6 +4886,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1016419561}
   slider: {fileID: 1016419560}
   animator: {fileID: 1016419562}
+  hunger: {fileID: 0}
 --- !u!195 &1016419566
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5002,6 +5035,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 183511034}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -5346,6 +5383,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1215815457}
   slider: {fileID: 1215815456}
   animator: {fileID: 1215815458}
+  hunger: {fileID: 0}
 --- !u!195 &1215815462
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5661,6 +5699,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 183511034}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -5827,6 +5869,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1236879703}
   slider: {fileID: 1236879702}
   animator: {fileID: 1236879704}
+  hunger: {fileID: 0}
 --- !u!195 &1236879708
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5912,7 +5955,7 @@ PrefabInstance:
     - target: {fileID: 1231147871427777688, guid: 071e5becc343e4471a4fd8672dc2c5fd, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 847425259}
     - target: {fileID: 1231147871427777688, guid: 071e5becc343e4471a4fd8672dc2c5fd, type: 3}
       propertyPath: decayTime
       value: 5
@@ -6311,6 +6354,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1351319707}
   slider: {fileID: 1351319706}
   animator: {fileID: 1351319708}
+  hunger: {fileID: 0}
 --- !u!195 &1351319712
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6446,6 +6490,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 183511034}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -6596,6 +6644,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 2086853277}
   slider: {fileID: 381192958}
   animator: {fileID: 1519196205}
+  hunger: {fileID: 0}
 --- !u!195 &1519196203
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7086,6 +7135,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1634864796}
   slider: {fileID: 1634864795}
   animator: {fileID: 1634864797}
+  hunger: {fileID: 0}
 --- !u!195 &1634864801
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7298,6 +7348,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1652689015}
   slider: {fileID: 1652689014}
   animator: {fileID: 1652689016}
+  hunger: {fileID: 0}
 --- !u!195 &1652689020
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8152,6 +8203,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 756785558}
   slider: {fileID: 1225917910}
   animator: {fileID: 1828316037}
+  hunger: {fileID: 0}
 --- !u!136 &1828316042
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8558,6 +8610,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8935005245402314873, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 183511034}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbcc510c84df4ffe834f8502243df8f, type: 3}
@@ -8724,6 +8780,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 1948668021}
   slider: {fileID: 1948668020}
   animator: {fileID: 1948668022}
+  hunger: {fileID: 0}
 --- !u!195 &1948668026
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9089,6 +9146,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 2066331119}
   slider: {fileID: 2066331118}
   animator: {fileID: 2066331120}
+  hunger: {fileID: 0}
 --- !u!195 &2066331124
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9304,6 +9362,7 @@ MonoBehaviour:
   healthBarUI: {fileID: 2091375535}
   slider: {fileID: 2091375534}
   animator: {fileID: 2091375536}
+  hunger: {fileID: 0}
 --- !u!195 &2091375540
 NavMeshAgent:
   m_ObjectHideFlags: 0

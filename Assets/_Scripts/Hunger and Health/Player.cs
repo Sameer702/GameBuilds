@@ -42,14 +42,24 @@ public class Player : MonoBehaviour
                 overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, tempAlpha);
             }
         }
-}
+    }
 
-public void takeDamage(int damage)
-{
-    currentHealth = currentHealth - damage;
-    durationTimer = 0;
-    overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 1);
-    healthBar.setHealth(currentHealth);
+    public void increaseHealth(int val)
+    {
+        currentHealth = currentHealth + val;
+        
+        if (currentHealth >= 100)
+        {
+            currentHealth = 100;
+        }
+        healthBar.setHealth(currentHealth);
+    }
 
-}
+    public void takeDamage(int damage)
+    {
+        currentHealth = currentHealth - damage;
+        durationTimer = 0;
+        overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 1);
+        healthBar.setHealth(currentHealth);
+    }
 }
