@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Gun : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class Gun : MonoBehaviour
     public Camera fpscam;
     // public ParticleSystem muzzleFlash;
     public Animator animator;
+    public Text ammoDisplay;
 
 
     private float nextTimeToFire = 0f;
@@ -23,6 +25,7 @@ public class Gun : MonoBehaviour
 
     void Start()
     {
+        ammoDisplay.text = currentAmmo.ToString();
         currentAmmo = maxAmmo;
     }
 
@@ -72,7 +75,7 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         // muzzleFlash.Play();
-
+        ammoDisplay.text = currentAmmo.ToString();
         currentAmmo--;
 
         RaycastHit hit;
