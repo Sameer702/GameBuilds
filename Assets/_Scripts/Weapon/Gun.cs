@@ -12,6 +12,8 @@ public class Gun : MonoBehaviour
     private int currentAmmo;
     public float reloadTime = 1f;
     private bool isReloading = false;
+    public int magazines;
+    public AudioSource emptyMagazine;
 
 
     public Camera fpscam;
@@ -40,7 +42,17 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ammoDisplay.text = currentAmmo.ToString();
+        ammoDisplay.text = currentAmmo.ToString() + "/" + magazines;
+
+        if (magazines == 0)
+        {
+            currentAmmo = 0;
+            if (Input.GetButton("Fire1"))
+            {
+                emptyMagazine.Play();
+            }
+            return;
+        }
 
         if (isReloading)
             return;
@@ -73,6 +85,7 @@ public class Gun : MonoBehaviour
 
         currentAmmo = maxAmmo;
         isReloading = false;
+        magazines--;
     }
 
     void Shoot()

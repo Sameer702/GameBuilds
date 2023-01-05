@@ -15,6 +15,11 @@ public class Player : MonoBehaviour
     public float duration;
     public float fadeSpeed;
     public AudioSource healSound;
+    public AudioSource damagedSound;
+    public Gun pistol;
+    public Gun smg;
+    public Gun shotgun;
+    public Gun ak;
     private float durationTimer;
 
     // Start is called before the first frame update
@@ -32,6 +37,18 @@ public class Player : MonoBehaviour
         {
             winScreen.Setup();
         }
+        else if (time.getCurrentTime() == "10:00")
+        {
+            shotgun.magazines = 10;
+        }
+        else if (time.getCurrentTime() == "14:00")
+        {
+            smg.magazines = 12;
+        }
+        else if (time.getCurrentTime() == "20:00")
+        {
+            ak.magazines = 10;
+        }
 
         if (overlay.color.a > 0)
         {
@@ -47,7 +64,7 @@ public class Player : MonoBehaviour
 
     public void increaseHealth(int val)
     {
-        if (currentHealth == 100)
+        if (currentHealth >= 100)
         {
             return;
         }
@@ -66,6 +83,7 @@ public class Player : MonoBehaviour
         currentHealth = currentHealth - damage;
         durationTimer = 0;
         overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 1);
+        damagedSound.Play();
         healthBar.setHealth(currentHealth);
     }
 }

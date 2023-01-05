@@ -17,7 +17,7 @@ public class WeaponController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Sword.activeSelf)
         {
             if (CanAttack)
             {
@@ -31,6 +31,7 @@ public class WeaponController : MonoBehaviour
 
     public void SwordAttack()
     {
+        Debug.Log("Sword");
         isAttacking = true;
         CanAttack = false;
         Animator anim = Sword.GetComponent<Animator>();
@@ -40,6 +41,7 @@ public class WeaponController : MonoBehaviour
 
     public void DaggerAttack()
     {
+        Debug.Log("Dagger");
         isAttacking = true;
         CanAttack = false;
         Animator anim = Dagger.GetComponent<Animator>();
@@ -62,6 +64,7 @@ public class WeaponController : MonoBehaviour
 
     void Attack()
     {
+        Debug.Log("Gun");
         RaycastHit hit;
         if (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit, range))
         {

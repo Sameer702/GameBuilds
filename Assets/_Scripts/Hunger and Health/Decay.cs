@@ -11,6 +11,7 @@ public class Decay : MonoBehaviour
     public Text decayText;
     public bool decaying;
     public Player player;
+    public int healAbovePercent;
 
     void Start()
     {
@@ -43,7 +44,7 @@ public class Decay : MonoBehaviour
         {
             yield return new WaitForSeconds(decayTime);
 
-            if (decayPercent >= 100)
+            if (decayPercent >= healAbovePercent)
             {
                 player.increaseHealth(3);
             }
