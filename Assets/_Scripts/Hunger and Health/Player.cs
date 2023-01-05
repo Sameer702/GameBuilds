@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public Image overlay;
     public float duration;
     public float fadeSpeed;
+    public AudioSource healSound;
     private float durationTimer;
 
     // Start is called before the first frame update
@@ -46,6 +47,10 @@ public class Player : MonoBehaviour
 
     public void increaseHealth(int val)
     {
+        if (currentHealth == 100)
+        {
+            return;
+        }
         currentHealth = currentHealth + val;
         
         if (currentHealth >= 100)
@@ -53,6 +58,7 @@ public class Player : MonoBehaviour
             currentHealth = 100;
         }
         healthBar.setHealth(currentHealth);
+        healSound.Play();
     }
 
     public void takeDamage(int damage)
