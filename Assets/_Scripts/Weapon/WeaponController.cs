@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    public GameObject Sword, Pistol, Dagger;
+    public GameObject Sword, Pistol;
     public bool CanAttack = true;
     public float AttackCooldown = 1.0f;
     public bool isAttacking = false;
 
     public float damage = 25f;
-    public float range = 2f;
+    public float range = 6f;
 
     public Camera fpscam;
 
@@ -23,7 +23,6 @@ public class WeaponController : MonoBehaviour
             {
                 Attack();
                 SwordAttack();
-                DaggerAttack();
             }
         }
     }
@@ -35,16 +34,6 @@ public class WeaponController : MonoBehaviour
         isAttacking = true;
         CanAttack = false;
         Animator anim = Sword.GetComponent<Animator>();
-        anim.SetTrigger("Attack");
-        StartCoroutine(ResetAttackCooldown());
-    }
-
-    public void DaggerAttack()
-    {
-        Debug.Log("Dagger");
-        isAttacking = true;
-        CanAttack = false;
-        Animator anim = Dagger.GetComponent<Animator>();
         anim.SetTrigger("Attack");
         StartCoroutine(ResetAttackCooldown());
     }
