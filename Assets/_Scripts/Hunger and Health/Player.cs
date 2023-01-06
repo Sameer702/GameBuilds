@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
     public WinningScreen winScreen;
+    public GameObject deathScreen;
     public TimeController time;
     public Image overlay;
     public float duration;
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        deathScreen.SetActive(false);
         currentHealth = maxHealth;
         healthBar.setMaxHealth(maxHealth);
         overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 0);
@@ -33,9 +35,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (time.getCurrentTime() == "07:00")
+        if (time.getCurrentTime() == "09:00")
         {
             winScreen.Setup();
+        }
+        if (currentHealth <= 0)
+        {
+            deathScreen.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Time.timeScale = 0f;
         }
         else if (time.getCurrentTime() == "10:00")
         {

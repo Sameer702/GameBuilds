@@ -17,6 +17,16 @@ public class ButtonsController : MonoBehaviour
 
     public void NextLevel()
     {
-        Debug.Log("Pressed");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void RetryLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void TestButton()
+    {
+        Debug.Log("Prr");
     }
 }

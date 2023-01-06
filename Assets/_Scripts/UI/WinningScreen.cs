@@ -10,5 +10,6 @@ public class WinningScreen : MonoBehaviour
         gameObject.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        Time.timeScale = 0f;
     }
 }
