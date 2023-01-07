@@ -29,7 +29,7 @@ public class ButtonsController : MonoBehaviour
 
     public void FinishGame()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void LoadPlayer()
