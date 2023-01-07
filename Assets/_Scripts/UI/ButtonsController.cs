@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsController : MonoBehaviour
 {
+    public GameObject menuButtons;
+    public GameObject tutorialText;
     public void Play() 
     {
         SceneManager.LoadScene(1);
@@ -25,8 +27,27 @@ public class ButtonsController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void TestButton()
+    public void FinishGame()
     {
-        Debug.Log("Prr");
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+
+        SceneManager.LoadScene(data.level);
+    }
+
+    public void HowToPlay()
+    {
+        menuButtons.SetActive(false);
+        tutorialText.SetActive(true);
+    }
+
+    public void Back()
+    {
+        menuButtons.SetActive(true);
+        tutorialText.SetActive(false);
     }
 }

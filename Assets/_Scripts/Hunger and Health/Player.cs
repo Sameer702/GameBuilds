@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Player : MonoBehaviour
 {
+    public int currentLevel;
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
@@ -26,6 +28,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
         deathScreen.SetActive(false);
         currentHealth = maxHealth;
         healthBar.setMaxHealth(maxHealth);
@@ -35,7 +38,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (time.getCurrentTime() == "09:00")
+        if (time.getCurrentTime() == "07:00")
         {
             winScreen.Setup();
         }
@@ -94,5 +97,11 @@ public class Player : MonoBehaviour
         overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 1);
         damagedSound.Play();
         healthBar.setHealth(currentHealth);
+    }
+
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(this);
+        Debug.Log("Saving Finished");
     }
 }
