@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//the script that controls and decays the players hunger
+
 public class Decay : MonoBehaviour
 {
     public int decayPercent;
@@ -23,6 +25,7 @@ public class Decay : MonoBehaviour
         decayText.text = decayPercent + "%";
     }
 
+    //increases the player hunger
     public void increaseHunger(int val)
     {
         if (decayPercent >= 100)

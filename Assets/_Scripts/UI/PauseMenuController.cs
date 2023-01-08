@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//controls all the buttons in the pause menu screen
+
 public class PauseMenuController : MonoBehaviour
 {
     public static bool isPaused = false;

@@ -25,13 +25,10 @@ Walls: https://assetstore.unity.com/packages/3d/props/exterior/wooden-barricades
 Sound: https://assetstore.unity.com/packages/audio/sound-fx/rpg-essentials-sound-effects-free-227708
 Desert Rock: https://assetstore.unity.com/packages/2d/textures-materials/stone/desert-rock-material-137094
 
-Tutorials (used to help):
+Tutorials (used to gain basic understanding of concepts but developed much more significantly independently):
 
-Shooting: https://www.youtube.com/watch?v=THnivyG0Mvo
-Ammo & Reloading: https://www.youtube.com/watch?v=kAx5g9V5bcM
-Inventory System: https://www.youtube.com/watch?v=Dn_BUIVdAPg
-Melee Combat: https://www.youtube.com/watch?v=aNZw588BQBo
-Enemy AI (ep 1-4): https://www.youtube.com/watch?v=whkC8f3oNOk
-Terrain Forest: https://www.youtube.com/watch?v=ddy12WHqt-M
-HealthBar: https://www.youtube.com/watch?v=BLfNP4Sc_iA&t=1005s&ab_channel=Brackeys
-Hunger Decay: https://www.youtube.com/watch?v=K55_WnEVgMU&ab_channel=Omogonix 
+Shooting: https://www.youtube.com/watch?v=THnivyG0Mvo [accessed: 5/11/22]
+Inventory System: https://www.youtube.com/watch?v=Dn_BUIVdAPg [accessed: 10/11/22]
+HealthBar: https://www.youtube.com/watch?v=BLfNP4Sc_iA&t=1005s&ab_channel=Brackeys [accessed: 14/11/22]
+Time Controller: https://www.youtube.com/watch?v=L4t2c1_Szdk [accessed: 15/10/2022]
+Controls: https://www.youtube.com/watch?v=_QajrabyTJc [accessed: 02/10/2022]

@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
+//deals with everything to do with the guns and their logic
+
 public class Gun : MonoBehaviour
 {
     public float damage = 10f;
@@ -17,7 +19,6 @@ public class Gun : MonoBehaviour
 
 
     public Camera fpscam;
-    // public ParticleSystem muzzleFlash;
     public Animator animator;
     public Text ammoDisplay;
 
@@ -39,7 +40,7 @@ public class Gun : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    //checks if the player is shooting and also manages the guns ammo
     void Update()
     {
         ammoDisplay.text = currentAmmo.ToString() + "/" + magazines;
@@ -70,6 +71,7 @@ public class Gun : MonoBehaviour
         }
     }
 
+    //reloads gun
     IEnumerator Reload()
     {
         isReloading = true;
@@ -88,9 +90,9 @@ public class Gun : MonoBehaviour
         magazines--;
     }
 
+    //shoot mechanic
     void Shoot()
     {
-        // muzzleFlash.Play();
         currentAmmo--;
 
         RaycastHit hit;

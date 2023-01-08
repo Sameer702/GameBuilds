@@ -1,6 +1,8 @@
 using UnityEngine.UI;
 using UnityEngine;
 
+//specific to enemy type bear to make him deal damage to player
+
 public class Bear : MonoBehaviour
 {
     public float health = 300;

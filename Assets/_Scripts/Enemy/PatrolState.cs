@@ -2,6 +2,8 @@ using UnityEngine.AI;
 using System.Collections.Generic;
 using UnityEngine;
 
+//the script used for the FSM patrol state
+
 public class PatrolState : StateMachineBehaviour
 {
     float timer;
@@ -41,16 +43,4 @@ public class PatrolState : StateMachineBehaviour
     {
         agent.SetDestination(agent.transform.position);
     }
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }

@@ -2,6 +2,8 @@ using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
+//saves the data in binary form
+
 public static class SaveSystem
 {
    public static void SavePlayer(Player player)

@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 public class WeaponSwitching : MonoBehaviour
+
+//inventory system
+
 {
 
     public int selectedWeapon = 0;
@@ -38,6 +41,7 @@ public class WeaponSwitching : MonoBehaviour
         }
     }
 
+    //displays the weapon which is scrolled to
     void SelectWeapon()
     {
         int i = 0;

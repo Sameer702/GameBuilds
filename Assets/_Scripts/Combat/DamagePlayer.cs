@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//the script that deals damage to the player
+
 public class DamagePlayer : MonoBehaviour
 {
     public Player player;    

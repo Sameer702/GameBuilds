@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//controls the players movement
+
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController playerController;

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//displays the winning screen
+
 public class WinningScreen : MonoBehaviour
 {
     public void Setup()

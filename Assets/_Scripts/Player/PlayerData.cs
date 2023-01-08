@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//used for saving players data
+
 [System.Serializable]
 public class PlayerData
 {

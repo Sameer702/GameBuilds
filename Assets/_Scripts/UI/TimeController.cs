@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+//calculates and displays on the top right corner and moves the position of the sun accordingly
 
 public class TimeController : MonoBehaviour
 {

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//deals with melee combat
+
 public class WeaponController : MonoBehaviour
 {
     public GameObject Sword, Pistol;

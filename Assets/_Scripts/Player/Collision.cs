@@ -30,14 +30,6 @@ public class Collision : MonoBehaviour
                 timer = 0;
             }
         }
-        // if (timer >= timeBetweenDamage)
-        // {
-        //     if (other.gameObject.tag == "enemy")
-        //     {
-        //         player.takeDamage(5);
-        //     }
-        //     timer = 0;
-        // }
     }
 
     void enemyDealsDamage(Collider other)

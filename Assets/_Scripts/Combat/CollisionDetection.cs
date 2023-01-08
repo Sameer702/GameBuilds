@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//what the enemy does when they contact someone
 public class CollisionDetection : MonoBehaviour
 {
     public WeaponController wp;
     public GameObject HitParticle;
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy" && wp.isAttacking)

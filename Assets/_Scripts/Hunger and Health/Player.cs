@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//manages the player
 
 public class Player : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class Player : MonoBehaviour
         overlay.color = new Color(overlay.color.r, overlay.color.g, overlay.color.b, 0);
     }
 
-    // Update is called once per frame
+    //Checks if the player is dead, also updates the players ammo and more
     void Update()
     {
         if (time.getCurrentTime() == "07:00")

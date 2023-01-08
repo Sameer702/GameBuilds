@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//controls a lot of the UI buttons
+
 public class ButtonsController : MonoBehaviour
 {
     public GameObject menuButtons;

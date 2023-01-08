@@ -1,6 +1,8 @@
 using UnityEngine.UI;
 using UnityEngine;
 
+//specific to enemy type spider to make him deal damage to player
+
 public class Spider : MonoBehaviour
 {
     public float health = 100;

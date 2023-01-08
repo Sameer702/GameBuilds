@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//specific to enemy type bear to make him deal damage to player
+
 public class Dragon : MonoBehaviour
 {
     public float health;
