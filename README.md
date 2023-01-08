@@ -22,8 +22,10 @@ Spider: https://assetstore.unity.com/packages/3d/characters/animals/insects/egyp
 Bear: https://assetstore.unity.com/packages/3d/characters/animals/free-stylized-bear-rpg-forest-animal-228910
 Goblin: https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/goblin-robber-66959
 Walls: https://assetstore.unity.com/packages/3d/props/exterior/wooden-barricades-111243
+Sound: https://assetstore.unity.com/packages/audio/sound-fx/rpg-essentials-sound-effects-free-227708
+Desert Rock: https://assetstore.unity.com/packages/2d/textures-materials/stone/desert-rock-material-137094
 
-Tutorials:
+Tutorials (used to help):
 
 Shooting: https://www.youtube.com/watch?v=THnivyG0Mvo
 Ammo & Reloading: https://www.youtube.com/watch?v=kAx5g9V5bcM
@@ -31,3 +33,5 @@ Inventory System: https://www.youtube.com/watch?v=Dn_BUIVdAPg
 Melee Combat: https://www.youtube.com/watch?v=aNZw588BQBo
 Enemy AI (ep 1-4): https://www.youtube.com/watch?v=whkC8f3oNOk
 Terrain Forest: https://www.youtube.com/watch?v=ddy12WHqt-M
+HealthBar: https://www.youtube.com/watch?v=BLfNP4Sc_iA&t=1005s&ab_channel=Brackeys
+Hunger Decay: https://www.youtube.com/watch?v=K55_WnEVgMU&ab_channel=Omogonix 
